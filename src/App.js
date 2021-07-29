@@ -3,39 +3,35 @@ import React, { useState } from 'react';
 export default function App() {
 	const questions = [
 		{
-			questionText: 'What is the capital of France?',
+			questionText: 'What is the capital of FranceL’origine de la viande doit être indiquée dans un plat préparé acheté en grande surface si il contient?',
 			answerOptions: [
-				{ answerText: 'New York', isCorrect: false },
-				{ answerText: 'London', isCorrect: false },
-				{ answerText: 'Paris', isCorrect: true },
-				{ answerText: 'Dublin', isCorrect: false },
+				{ answerText: 'Au moins 8% de viande', isCorrect: true },
+				{ answerText: 'Deux types de viande', isCorrect: false },
+				{ answerText: 'De la viande française et d"un autre pays de L"UE', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'Who is CEO of Tesla?',
+			questionText: 'Pour placer des aliments que je viens de cuisiner au réfrigérateur je ne dois pas attendre...?',
 			answerOptions: [
-				{ answerText: 'Jeff Bezos', isCorrect: false },
-				{ answerText: 'Elon Musk', isCorrect: true },
-				{ answerText: 'Bill Gates', isCorrect: false },
-				{ answerText: 'Tony Stark', isCorrect: false },
+				{ answerText: 'Plus de 5 heures', isCorrect: false },
+				{ answerText: 'Plus de 2 heures', isCorrect: true },
+				{ answerText: 'Plus de 30 minutes', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'The iPhone was created by which company?',
+			questionText: 'Nous gaspillons par an et par habitant...?',
 			answerOptions: [
-				{ answerText: 'Apple', isCorrect: true },
-				{ answerText: 'Intel', isCorrect: false },
-				{ answerText: 'Amazon', isCorrect: false },
-				{ answerText: 'Microsoft', isCorrect: false },
+				{ answerText: '20 kg de nourriture', isCorrect: false },
+				{ answerText: '30 kg de nourriture', isCorrect: false },
+				{ answerText: '50 kg de nourriture', isCorrect: true },
 			],
 		},
 		{
-			questionText: 'How many Harry Potter books are there?',
+			questionText: 'Lorsque l"on place une conserve entamée au réfrigérateur sa date limite de consommation est...?',
 			answerOptions: [
-				{ answerText: '1', isCorrect: false },
-				{ answerText: '4', isCorrect: false },
-				{ answerText: '6', isCorrect: false },
-				{ answerText: '7', isCorrect: true },
+				{ answerText: 'Réduite', isCorrect: false },
+				{ answerText: 'Il n"y a pas de DLC sur les conserves', isCorrect: false },
+				{ answerText: 'Aucune incidence', isCorrect: false },
 			],
 		},
 	];
